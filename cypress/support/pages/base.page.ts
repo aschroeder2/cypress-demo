@@ -1,5 +1,5 @@
 
-export class SoftwareDevPage {
+export class BasePage {
 
   getTopHeaderElem(): Cypress.Chainable<JQuery<HTMLElement>> {
 
