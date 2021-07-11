@@ -4,12 +4,13 @@
   "description": "A few test scripts to experiment with cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "headed-test": "cypress run -b chrome --headed"
   },
   "author": "Ashley Schroeder",
   "license": "ISC",
-  
   "dependencies": {
-    "cypress": "^7.7.0"
+    "cypress": "^7.7.0",
+    "typescript": "^4.3.5"
   }
 }
