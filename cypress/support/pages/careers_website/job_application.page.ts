@@ -1,5 +1,3 @@
-import { collapseTextChangeRangesAcrossMultipleVersions } from "typescript"
-
 export class JobApplicationPage {
 
   typeContactInformation(fullName: string, email: string): void {
