@@ -1,5 +1,6 @@
 {
   "prod": {
-    "semanticbits_home": "https://semanticbits.com/"
+    "semanticbits_home": "https://semanticbits.com/",
+    "semanticbits_jobs": "https://jobs.lever.co/semanticbits"
   }
 }
