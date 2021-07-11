@@ -9,11 +9,10 @@ export class HeaderPage {
   }
   
   clickMainNavItem(mainNavItem: string): void {
-    cy.contains('ul.sf-menu li', mainNavItem).click()
+    this.mainNavElem(mainNavItem).click()
   }
 
   mainNavElem(mainNavItem: string): Cypress.Chainable<JQuery<HTMLElement>> {
     return cy.contains('ul.sf-menu li', mainNavItem)
   }
 }
-
